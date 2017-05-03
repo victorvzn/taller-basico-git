@@ -2,6 +2,7 @@
 
 Working directory <> Staging Area[INDEX] <> Repository	
 
+```bash
 git init
 git status
 git add
@@ -75,5 +76,4 @@ git pull
 git fetch [ preguntar a un remoto si hay cambios y descargarlas solamente ]
 	git fetch <remote_name>
 	git fetch origin
-
-
+```
