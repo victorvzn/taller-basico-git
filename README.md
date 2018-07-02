@@ -78,8 +78,6 @@ git fetch [ preguntar a un remoto si hay cambios y descargarlas solamente ]
 	git fetch origin
 ```
 
-# --------------------------------------------------------
-
 ```
 alias.a add
 alias.aa add --all
