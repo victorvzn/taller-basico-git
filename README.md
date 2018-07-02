@@ -77,3 +77,33 @@ git fetch [ preguntar a un remoto si hay cambios y descargarlas solamente ]
 	git fetch <remote_name>
 	git fetch origin
 ```
+
+# --------------------------------------------------------
+
+```
+alias.a add
+alias.aa add --all
+alias.b branch
+alias.c commit
+alias.cm commit -m
+alias.co checkout
+alias.com checkout master
+alias.d diff
+alias.l log
+alias.lo log --oneline --decorate
+alias.la log --oneline --decorate --all --graph
+alias.m merge
+alias.pl pull origin master
+alias.s status
+alias.t tag
+alias.unstage reset HEAD
+alias.cod checkout develop
+alias.lp log --pretty=format:'%C(yellow)%h %Cblue%>(12)%ad %Cgreen%<(7)%aN%Cred%d %Creset%s' -10 --date=short
+alias.da diff HEAD~1 HEAD
+alias.rs reset
+alias.rv revert
+alias.undo checkout --
+alias.bv branch -v
+alias.ps push origin master
+alias.cb checkout -b
+```
